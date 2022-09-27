@@ -287,8 +287,6 @@ body {
   }
 }
 /* ------------------------------------------------------ */
-.services {
-}
 .services__container {
   padding: 150px 15px;
 }
@@ -337,8 +335,6 @@ body {
 }
 .item__tittle {
   font-size: 28px;
-}
-.item__content {
 }
 
 @media (max-width: 1024px) {
