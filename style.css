@@ -293,10 +293,16 @@ body {
   padding: 150px 15px;
 }
 .services-top {
+  display: flex;
+  margin-bottom: 80px;
+  align-items: center;
+  gap: 25vw;
 }
 .services__tittle {
+  max-width: 548px;
 }
 .services__button {
+  flex: 0 0 auto;
 }
 .services-content {
   display: grid;
