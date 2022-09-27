@@ -340,3 +340,31 @@ body {
 }
 .item__content {
 }
+
+@media (max-width: 1024px) {
+  .services-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 50px 40px;
+  }
+  .services-top {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .services__tittle {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .services-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 50px 40px;
+  }
+}
