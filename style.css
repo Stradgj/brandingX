@@ -76,7 +76,7 @@ body {
   margin-bottom: 80px;
   align-items: center;
   justify-content: center;
-  gap: 30%;
+  gap: 33%;
 }
 /* ------------header------------- */
 .header {
@@ -158,12 +158,11 @@ body {
 .main-text {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .main_text {
   margin-bottom: 42px;
   max-width: 442px;
-  text-align: center;
 }
 .main-buttons {
   max-width: 732px;
@@ -277,6 +276,13 @@ body {
   .absolute-decor {
     display: none;
   }
+  .main-text {
+    align-items: center;
+    justify-content: center;
+  }
+  .main_text {
+    text-align: center;
+  }
   .main__container {
     flex-direction: column;
     align-items: center;
@@ -302,6 +308,9 @@ body {
     .button {
       font-size: 14px;
       padding: 13px 20px;
+    }
+    .contact-us__button {
+      padding: 15px 40px;
     }
   }
 }
