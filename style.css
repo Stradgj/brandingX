@@ -60,7 +60,7 @@ body {
 }
 
 [class*="__container"] {
-  max-width: 1440px;
+  max-width: 1220px;
   margin: 0 auto;
   padding: 240px 15px;
   justify-content: center;
@@ -608,7 +608,18 @@ body {
 .browse-more_tittle-box {
   max-width: 456px;
 }
+.browse-more__item {
+  padding: 64px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.browse-more-tittle {
+  margin-bottom: 20px;
+}
 .browse-more__tittle {
+  font-size: 48px;
 }
 .browse-more-button {
 }
@@ -617,14 +628,15 @@ body {
 .browse-more__servise {
   font-size: 18px;
   text-transform: uppercase;
+  flex: 0 0 293px;
 }
 .browse-more__description {
-}
-.browse-more__item {
 }
 .browse-more__item_1 {
 }
 .browse-more__text {
+  max-width: 624px;
+  line-height: 1.4;
 }
 .browse-more__item_2 {
 }
