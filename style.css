@@ -155,12 +155,15 @@ body {
   letter-spacing: 2.16px;
   text-transform: uppercase;
 }
-.main_text {
+.main-text {
   display: flex;
   align-items: center;
-  align-items: center;
+  justify-content: center;
+}
+.main_text {
   margin-bottom: 42px;
   max-width: 442px;
+  text-align: center;
 }
 .main-buttons {
   max-width: 732px;
