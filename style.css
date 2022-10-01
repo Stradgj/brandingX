@@ -965,8 +965,7 @@ body {
   padding: 30px 15px;
   gap: 390px;
 }
-.copyrights {
-}
+
 .social-networks {
   display: flex;
   gap: 28px;
@@ -977,6 +976,15 @@ body {
 }
 @media (max-width: 1024px) {
   .footer__container {
-    gap: 140px;
+    gap: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    gap: 70px;
+  }
+  .copyrights {
+    font-size: 12px;
   }
 }
