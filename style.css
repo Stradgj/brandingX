@@ -9,6 +9,7 @@
 
 a {
   text-decoration: none;
+  list-style: none;
 }
 ul,
 ol,
@@ -886,5 +887,69 @@ body {
   }
   .lets-work-together_tittle-box {
     margin-bottom: 38px;
+  }
+}
+/* ---------nav section----------------- */
+.navigation__section {
+}
+.navigation-contacts .email,
+.navigation-contacts .number {
+  font-size: 22px;
+}
+.navigation__container {
+  display: flex;
+  gap: 219px;
+}
+.nav__logo {
+  margin-bottom: 40px;
+}
+.email {
+}
+.contact {
+}
+.slash {
+}
+.number {
+}
+.links {
+  display: flex;
+  gap: 300px;
+  max-width: 720px;
+}
+.nav-item,
+.nav-item:visited,
+.nav-item:active {
+  color: #555671;
+  text-transform: uppercase;
+}
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.nav_item-box {
+  flex: 1 1 174px;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  max-height: 285px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nav__tittle {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+@media (max-width: 1024px) {
+  .links {
+    gap: 200px;
+  }
+  .navigation__container {
+    display: flex;
+    gap: 130px;
+  }
+}
+@media (max-width: 768px) {
+  .navigation__container {
+    flex-direction: column;
   }
 }
