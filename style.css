@@ -541,7 +541,7 @@ body {
     max-width: 330px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 855px) {
   .about-us__content {
     grid-template-columns: 234px 130px 246px;
     grid-template-rows: 130px 234px 130px;
