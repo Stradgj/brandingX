@@ -657,8 +657,7 @@ body {
   display: flex;
   max-height: 662px;
 }
-.contact-us__container {
-}
+
 .contact-us__content {
   display: flex;
   flex-direction: column;
@@ -667,14 +666,9 @@ body {
   max-width: 452px;
   margin-bottom: 68px;
 }
-.contact-us__tittle {
-}
-.contact-us_button {
-}
+
 .contact-us_button .contact-us__button {
   padding: 10px 56px;
-}
-.button {
 }
 .contact-us__decor {
   display: grid;
@@ -785,10 +779,6 @@ body {
   max-width: 333px;
   line-height: 1.5;
 }
-.about-our-agency__item_2 {
-}
-.about-our-agency__item_3 {
-}
 .about-our-agency__buttons {
   max-width: 1220px;
   height: 90px;
@@ -808,4 +798,40 @@ body {
   .about-our-agency__buttons {
     flex-direction: column;
   }
+}
+
+/* --------articles and resources ------------------*/
+.articles-and-resourses__section {
+}
+.articles-and-resourses__container {
+}
+.articles-and-resourses__top {
+}
+.articles-and-resourses_tittle-box {
+}
+.articles-and-resourses__tittle {
+  font-size: 28px;
+  text-transform: none;
+  line-height: 1.16;
+}
+.articles-and-resourses-button {
+}
+.button {
+}
+.articles-and-resourses__content {
+}
+.articles-and-resourses__logo {
+}
+.articles-and-resourses__date {
+  text-transform: uppercase;
+  color: #555671;
+}
+.articles-and-resourses_tittle {
+  max-width: 388px;
+}
+.articles-and-resourses__text {
+  max-width: 318px;
+}
+.articles-and-resourses__item {
+  flex-direction: column;
 }
