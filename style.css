@@ -947,9 +947,36 @@ body {
     display: flex;
     gap: 130px;
   }
+  .nav_item-box {
+    gap: 20px;
+  }
 }
 @media (max-width: 768px) {
   .navigation__container {
     flex-direction: column;
+  }
+}
+/* -------footer------------ */
+.footer {
+  background-color: #f0efec;
+}
+.footer__container {
+  display: flex;
+  padding: 30px 15px;
+  gap: 390px;
+}
+.copyrights {
+}
+.social-networks {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  justify-content: center;
+}
+.social-network {
+}
+@media (max-width: 1024px) {
+  .footer__container {
+    gap: 140px;
   }
 }
