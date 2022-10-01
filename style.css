@@ -636,7 +636,7 @@ body {
 }
 .browse-more__text {
   max-width: 624px;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 .gray-slash {
   color: #d9d8d5;
@@ -748,5 +748,64 @@ body {
   .contact-us__content {
     align-items: center;
     justify-content: center;
+  }
+}
+/* ---------------about our agency ---------------------------- */
+
+.about-our-agency_tittle-box {
+  max-width: 528px;
+}
+.about-our-agency-text {
+  max-width: 432px;
+  line-height: 1.5;
+}
+.about-our-agency__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 97px;
+  margin-bottom: 48px;
+}
+
+.about-our-agency__item {
+  display: flex;
+  flex-direction: column;
+}
+.about-our-agency-item-logo {
+  margin-bottom: 23px;
+}
+.about-our-agency-item-tittle {
+  margin-bottom: 13px;
+}
+.about-our-agency-item__tittle {
+  font-size: 28px;
+}
+
+.about-our-agency-item-text {
+  max-width: 333px;
+  line-height: 1.5;
+}
+.about-our-agency__item_2 {
+}
+.about-our-agency__item_3 {
+}
+.about-our-agency__buttons {
+  max-width: 1220px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+.about-our-agency__buttons .button {
+  padding: 8px 56px;
+}
+
+@media (max-width: 768px) {
+  .about-our-agency__content {
+    flex-direction: column;
+  }
+  .about-our-agency__buttons {
+    flex-direction: column;
   }
 }
