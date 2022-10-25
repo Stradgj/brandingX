@@ -188,7 +188,8 @@ body {
   justify-content: flex-start;
   gap: 28px;
 }
-.button:link {
+.button:link,
+.button:visited {
   flex: 0 0 auto;
   color: #181a3f;
   border: 2px solid #181a3f;
@@ -201,23 +202,23 @@ body {
   cursor: pointer;
   white-space: nowrap;
 }
-.button:hover {
+.button:hover,
+.button:active {
   background-color: #181a3f;
   color: #fff;
 }
-.contact-us__button:link {
+.contact-us__button:link,
+.contact-us__button:visited {
   border: 2px solid #ff7549;
   background-color: #ff7549;
   color: #fff;
   transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
-.contact-us__button:hover {
+.contact-us__button:hover,
+.contact-us__button:active {
   background-color: #fff;
   color: #ff7549;
   border: 2px dashed #ff7549;
-}
-.contact-us__button:active {
-  border: 2px solid #ff7549;
 }
 /* --------blocks------ */
 .main-decor {
@@ -364,6 +365,7 @@ body {
 .item__content {
   max-width: 316px;
   flex: 0 1 auto;
+  line-height: 1.3;
 }
 .item-tittle {
   margin-bottom: 13px;
@@ -419,6 +421,7 @@ body {
   font-size: 18px;
   line-height: 140%;
   max-width: 418px;
+  line-height: 1.6;
 }
 .about-us__content {
   justify-content: center;
@@ -893,8 +896,7 @@ body {
   }
 }
 /* ---------nav section----------------- */
-.navigation__section {
-}
+
 .navigation-contacts .email,
 .navigation-contacts .number {
   font-size: 22px;
@@ -905,14 +907,6 @@ body {
 }
 .nav__logo {
   margin-bottom: 40px;
-}
-.email {
-}
-.contact {
-}
-.slash {
-}
-.number {
 }
 .links {
   display: flex;
